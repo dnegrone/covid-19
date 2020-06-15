@@ -1,0 +1,30 @@
+.container {
+    background: rgba(50,30,80,.6);
+    padding: 1rem;
+    max-width: 120px;
+    color: #fff;
+    border-radius: 6px;
+    font-size: 1.2rem;
+    .data {
+        display: block;
+    }
+    .hora {
+        color: yellowgreen;
+    }
+}
+ul {
+    list-style-type: none;
+    display: inline;
+    li {
+        display: inline-block;
+        margin-right: 2rem;
+        font-size: 1.25rem;
+        line-height: 1.7;
+        em {
+            color: royalblue;
+            font-weight: 600;
+            display: block;
+            margin-bottom: 30px;
+        }
+    }
+}
